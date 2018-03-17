@@ -30,14 +30,14 @@ public class Bebedor {
 	 */
 	@JsonProperty(value="id")
 	//TODO Requerimiento 1A: Cree un atributo tipo Long para representar el id. Este debe tener el mismo nombre que la etiqueta
-
+	private long id;
 
 	/**
 	 * Nombre del bebedor
 	 */
 	@JsonProperty(value="nombre")
 	//TODO Requerimiento 1B: Cree un atributo tipo String para representar el nombre. Este debe tener el mismo nombre que la etiqueta
-
+	private String nombre;
 
 	/**
 	 * Presupuesto del bebedor. Puede ser Alto, Medio o Bajo.
